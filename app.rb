@@ -11,5 +11,5 @@ get '/' do
 end
 
 post '/' do
-  "This is the response from your POST request"
+  "This is the response from your POST request, #{params[:name]}"
 end
